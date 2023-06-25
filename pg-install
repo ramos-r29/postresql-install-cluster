@@ -6,7 +6,6 @@ sudo apt-get update
 sudo apt-get -y install postgresql
 
 # Create cluster
-# Create directory for data
 sudo mkdir -p /usr/local/pgsql/data
 cd /usr/local
 sudo chown -R postgres ./pgsql
