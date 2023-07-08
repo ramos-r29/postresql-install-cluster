@@ -27,8 +27,8 @@
 <p>cd /usr/lib/postgresql/15/bin </p>
 <p>./initdb -D /usr/local/pgsql/data </p>
 
-Step 8:  Start server
-./pg_ctl start -D /usr/local/pgsql/data >logfile 2>&1 &
+Step 8:  Start server (Set the path to the logfile in the postgresql.conf file using the log_directory parameter)
+./pg_ctl start -l logfile -D /usr/local/pgsql/data
 
 <h2>References:</h2>
 <p>https://www.postgresql.org/download/linux/ubuntu/ </p>
