@@ -28,7 +28,7 @@
 <p>./initdb -D /usr/local/pgsql/data </p>
 
 Step 8:  Start server
-./pg_ctl start -D /usr/local/pgsql/data
+./pg_ctl start -D /usr/local/pgsql/data >logfile 2>&1 &
 
 <h2>References:</h2>
 <p>https://www.postgresql.org/download/linux/ubuntu/ </p>
